@@ -5,7 +5,7 @@ PKG_DEB_NAME="libopencv-dev"
 PKG_RPM_NAME="opencv-devel"
 PKG_BREW_NAME="opencv"
 PKG_TEST_HEADER="<opencv2/opencv.hpp>"
-PKG_LIBS="-lopencv_{stitching,superres,videostab,aruco,bgsegm,bioinspired,ccalib,dnn_objdetect,\
+PKG_LIBS="-libopencv_{stitching,superres,videostab,aruco,bgsegm,bioinspired,ccalib,dnn_objdetect,\
 dpm,face,photo,fuzzy,hfs,img_hash,line_descriptor,optflow,reg,rgbd,saliency,stereo,structured_light,\
 phase_unwrapping,surface_matching,tracking,datasets,dnn,plot,xfeatures2d,shape,video,ml,ximgproc,\
 calib3d,features2d,highgui,videoio,flann,xobjdetect,imgcodecs,objdetect,xphoto,imgproc,core}"
